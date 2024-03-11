@@ -1,8 +1,8 @@
 <?php
 // Basic connection settings
-$databaseHost = '<host_address>';
-$databaseUsername = '<user_name>';
-$databasePassword = '******';
+$databaseHost = '127.0.0.1';
+$databaseUsername = 'root';
+$databasePassword = '';
 $databaseName = 'rolodex';
 
 // Connect to the database

@@ -1,10 +1,14 @@
 <?php
 // Include database connection file
+$name = $age = $email = "";
+$nameErr = $ageErr = $emailErr = "";
+
 include_once("config.php");
 
 if(isset($_POST['update']))
 {	
 	// Retrieve record values
+	
 	$name = mysqli_real_escape_string($mysqli, $_POST['name']);
 	$age = mysqli_real_escape_string($mysqli, $_POST['age']);
 	$email = mysqli_real_escape_string($mysqli, $_POST['email']);	

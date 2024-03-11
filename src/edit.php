@@ -1,5 +1,9 @@
 <?php
 // Include database connection file
+
+$name = $age = $email = "";
+$nameErr = $ageErr = $emailErr = "";
+
 include_once("config.php");
 
 if(isset($_POST['update']))
